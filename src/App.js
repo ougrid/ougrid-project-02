@@ -2,16 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { Route, Routes, Link, Navigate } from "react-router-dom";
 import { TodoistApi } from "@doist/todoist-api-typescript"
 import axios from 'axios'
-import Home from "./components/Home/Home";
-import ToDo from './components/ToDo/ToDo';
-import Location from './components/Location/Location';
-import AirQuality from './components/AirQuality/AirQuality';
-import About from "./components/About/About"
+import Home from "./routes/Home/Home";
+import ToDo from './routes/ToDo/ToDo';
+import Location from './routes/Location/Location';
+import AirQuality from './routes/AirQuality/AirQuality';
+import About from "./routes/About/About"
 import './App.css';
 import botImg from './img/bot-homepage.png'
 import redFlare from './img/red-flare.png'
 import whiteFlare from './img/white-flare.png'
-import ToDoList from './components/ToDoList/ToDoList';
+import ToDoList from './routes/ToDoList/ToDoList';
 
 function App() {
   const [locationData, setLocationData] = useState({})
