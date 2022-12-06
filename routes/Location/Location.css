@@ -1,0 +1,10 @@
+#location-page {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-destination {
+  margin-top: 50px;
+}
